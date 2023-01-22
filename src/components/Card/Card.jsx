@@ -1,6 +1,7 @@
 
 import Button from '../Button/Button'
 import Input from '../Input/Input'
+import Result from './result'
 
 //import images
 import icon1 from '../../images/$.svg'
@@ -21,7 +22,7 @@ const Card = () => {
                 <div className='tip-percentage'>
                     {
                        tips.map((tip,index) => {
-                        return <Button key={index} width='117px' height='48px' text={tip}/>
+                        return <Button key={index} width='117px' height='48px' text={tip + ' %'} Backcolor='#00474B'/>
                        })
                     }
                 </div>
@@ -29,9 +30,10 @@ const Card = () => {
                 <Input label='number of people' src={icon2}/>
             </div>
 
-            <div className='result'>
-
+            <div className='section'>
+                <Result />
             </div>
+            
         </div>
     )
 }
