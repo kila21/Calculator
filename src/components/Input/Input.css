@@ -1,0 +1,47 @@
+.input-container{ 
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #5E7A7D;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    font-family: 'Space Mono';
+}
+
+.input {
+    position: relative;
+    width: 379px;
+    height: 48px;
+}
+
+.input input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #F3F9FA;
+    border: none;
+    font-size: 22px;
+    color: #00474B;
+    font-family: 'Space Mono';
+    text-align: right;
+    font-weight: 700;
+}
+
+input:focus {
+    outline: none;
+}
+
+.input img {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    width: 10px;
+    height: 15px;
+
+}
