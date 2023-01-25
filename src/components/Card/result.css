@@ -33,3 +33,10 @@
 Button {
     height: 33%;
 }
+@media screen and (max-width: 935px){ 
+
+    .result_continer {
+        width: 327px;
+        height: 257px;
+    }
+}

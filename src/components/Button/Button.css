@@ -18,3 +18,11 @@ button:active,
 button:hover {
     background-color: #26C2AE;
 }
+
+@media screen and (max-width: 935px){
+
+    .button {
+        margin-right: 16px;
+        width: 135px !important;
+    }
+}

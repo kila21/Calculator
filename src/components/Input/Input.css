@@ -45,3 +45,9 @@ input:focus {
     height: 15px;
 
 }
+
+@media screen and (max-width: 935px){ 
+    .input {
+        width: 311px;
+    }
+}
